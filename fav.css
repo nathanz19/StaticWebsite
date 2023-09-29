@@ -35,6 +35,7 @@ nav{
   margin-right: 40px;
   padding: 10px;
   border-style: dotted;
+  width: 200px;
 }
 #nav-title {
   text-align: center;

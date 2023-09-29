@@ -1,49 +1,87 @@
 /* Whole page */
 body {
-    background-color: bisque;
+  background-color: bisque;
 }
 
 /* Header */
 header {
-    background-color: salmon;
-    border-style: dotted;
-    height: 350px;
-    display: flex;
+  background-color: salmon;
+  border-style: dotted;
+  height: 350px;
+  display: flex;
 }
-.sunset-image {
+
+h1 {
+  color: purple;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 100px;
+  margin: 100px;
+  padding: 10px;
+}
+.nyc-night {
   margin: 10px;
   padding: 10px;
   width: 500px;
   height: auto;
 }
-h1 {
-    color : purple;
-    text-align: center;
-    font-family: fantasy;
-    font-size: 100px;
-    margin: 100px;
-    padding: 10px;
-}
-
 
 /*Main*/
-main{
+main {
   display: flex;
 }
-.main-text {
+.main-body {
+  margin-top: 10px;
   border-style: dotted;
-  width: 600px;
-  margin: 20px;
-  padding: 20px;
-  margin-top: 50px;
-  font-size: 20px;
+  width: 1000px;
 }
-.cs-image {
-  width: 500px;
-  height: auto;
+#intro-para {
+  font-size: 20px;
   margin: 20px;
-  padding: 20px;
-  margin-top: 50px;
+}
+dt {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 20px;
+  color: #5f0707;
+}
+dd {
+  font-size: 20px;
+  margin: 20px;
+}
+.spotpic {
+  width: 800px;
+  height: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.tram {
+  width: 800px;
+  height: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+}
+form {
+  border-style: dotted; 
+  width: 500px;
+  margin-top: 10px;
+  margin-left: 40px;
+  text-align: center;
+}
+#short {
+  font-size: 30px;
+  margin: 10px;
+}
+input {
+  margin: 20px;
+}
+label {
+  font-size: 20px;
 }
 
 /*Navigation*/
